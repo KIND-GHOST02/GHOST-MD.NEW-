@@ -1,5 +1,5 @@
 {
-  "name": "DINUWA_MD",
+  "name": "GHOST_MD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴏʜɪᴅ ᴋʜᴀɴ",
   "logo": "https://i.imgur.com/M1BzE37.jpeg",
   "keywords": ["bot"],
@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "DINUWA-MD"
+      "value": "GHOST-MD"
     },  
     
     "ALIVE_IMG": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "DINUWA-MD"
+      "value": "GHOST-MD"
     }, 
 
     "HEART_REACT": {
@@ -112,15 +112,4 @@
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "POWERED BY TOHID KHAN"
-    }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
-}
+      "value": "POWERED BY GHOST MD"
