@@ -4,7 +4,7 @@ const yts = require('yt-search')
 cmd({
     pattern: "play2",
     desc: "To download songs.",
-    react: "🎵",
+    react: "💿",
     category: "download",
     filename: __filename
 },
@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *QUEEN SADU MUSIC DOWNLOADING* ]⦁⫸
+⫷⦁[ *GHOST MD SONG DOWNLOADING......* ]⦁⫸
 
 🎵 *MUSIC FOUND!* 
 
@@ -29,9 +29,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *QUEEN SADU WHATSAPP BOT* 
+> *GHOST MD WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴍᴅ* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -43,7 +43,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴍᴅ*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -70,36 +70,4 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *•QUEEN SADU VIDEO DOWNLOADING* ]⦁⫸ 
-
-🎥 *VIDEO FOUND!* 
-
-➥ *Title:* ${data.title} 
-➥ *Duration:* ${data.timestamp} 
-➥ *Views:* ${data.views} 
-➥ *Uploaded On:* ${data.ago} 
-➥ *Link:* ${data.url} 
-
-🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
-
-> *QUEEN SADU WHATSAPP BOT* 
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴏʜɪᴅ ᴋʜᴀɴ*
-`
-
-await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
-
-//download video
-
-let down = await fg.ytv(url)
-let downloadUrl = down.dl_url
-
-//send video message
-await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ*"},{quoted:mek})
-
-}catch(e){
-console.log(e)
-  reply('${e}')
-}
-})
+⫷⦁[ *GHOST MD VIDEO DOWNLOADING......
