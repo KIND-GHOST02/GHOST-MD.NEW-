@@ -1,4 +1,4 @@
-//CODING BY NOTNING ❤️‍🩹🫅🏻
+
 const config = require('../config');
 const { cmd, commands } = require('../command');
 const fs = require('fs');
@@ -6,7 +6,7 @@ const path = require('path');
 
 cmd({
     pattern: "save",
-    react: "📁",
+    react: "👾",
     alias: ["store"],
     desc: "Save and send back a media file (image, video, or audio).",
     category: "media",
