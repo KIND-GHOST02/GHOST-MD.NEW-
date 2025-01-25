@@ -8,7 +8,7 @@ cmd({
 
     pattern: "settings",
 
-    react: "☣️",
+    react: "👾",
 
     alias: ["setting","env"],
 
@@ -42,15 +42,4 @@ let madeSetting =`*╭────⚃* *SETTINGS* *⚃*
 *┊* *♾️ OWNER_REACT:* ➠ ${config.OWNER_REACT} 
 *┊* *♾️ BOT_NAME:* ➠ ${config.BOT_NAME}
 
-> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴜᴡᴀ
-*╰═════════════⚃*
-`
-
-
-await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeSetting},{quoted:mek})
-
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴍᴅ
