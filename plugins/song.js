@@ -7,7 +7,7 @@ cmd({
     alias: ["ytmp3","audio3"],
     desc: "download songs",
     category: "download",
-    react: "🎵",
+    react: "💿",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -17,9 +17,9 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `╭━━━〔 *DINUWA-MD* 〕━━━┈⊷
+let desc = `╭━━━〔 *GHOST-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *MUSIC DOWNLOADER*
+┃▸┃๏ *𝙂𝙃𝙊𝙎𝙏 𝙈𝘿 𝙎𝙊𝙉𝙂 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂.....*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━❮ *Download Audio* ❯━┈⊷
@@ -32,7 +32,7 @@ let desc = `╭━━━〔 *DINUWA-MD* 〕━━━┈⊷
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴜᴡᴀ ♡*`
+> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴍᴅ*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
@@ -65,9 +65,9 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `╭━━━〔 *DINUWA-MD* 〕━━━┈⊷
+let des = `╭━━━〔 *GHOST-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *VIDEO DOWNLOADER*
+┃▸┃๏ *𝙂𝙃𝙊𝙎𝙏 𝙈𝘿 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂.....*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━❮ *Download Audio* ❯━┈⊷
@@ -80,7 +80,7 @@ let des = `╭━━━〔 *DINUWA-MD* 〕━━━┈⊷
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *© Pᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴜᴡᴀ ♡*`
+> *© Pᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴍᴅ*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
 //download video
