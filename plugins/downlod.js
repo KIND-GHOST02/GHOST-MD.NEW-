@@ -190,7 +190,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `GHOST MD OWNER BY CYBER GHOST`,
+                    message: `👋`,
                     orderTitle: "",
                     sellerJid: '94704227534@s.whatsapp.net'
                 }
